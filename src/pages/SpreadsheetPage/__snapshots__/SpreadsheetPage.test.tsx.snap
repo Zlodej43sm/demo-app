@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpreadsheetPage SHOULD match snapshot 1`] = `
+<div>
+  <div
+    class="MuiContainer-root SpreadsheetPage-root-1 MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <h1
+      class="MuiTypography-root MuiTypography-h1 css-o2w69a-MuiTypography-root"
+    >
+      Your Personal Staking Calculator
+    </h1>
+    <div
+      class="MuiTableContainer-root Spreadsheet-tableContainerRoot-2 css-rorn0c-MuiTableContainer-root"
+      style="overflow-x: initial;"
+    >
+      <table
+        class="MuiTable-root css-rqglhn-MuiTable-root"
+      >
+        <thead
+          class="MuiTableHead-root Spreadsheet-tableHeadRoot-3 css-15wwp11-MuiTableHead-root"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root Spreadsheet-tableSearchBarCellRoot-8 MuiTableCell-head MuiTableCell-sizeMedium css-1ygcj2i-MuiTableCell-root"
+              colspan="3"
+              scope="col"
+            >
+              <div
+                class="SearchInput-root-13 MuiBox-root css-0"
+              >
+                <div
+                  class="MuiInputBase-root MuiInput-root SearchInput-inputWrapperRoot-15 MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-adornedStart css-1s97tdc-MuiInputBase-root-MuiInput-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall SearchInput-searchIconRoot-14 css-ptiqhd-MuiSvgIcon-root"
+                    data-testid="SearchIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                    />
+                  </svg>
+                  <input
+                    class="MuiInputBase-input MuiInput-input MuiInputBase-inputTypeSearch MuiInputBase-inputAdornedStart css-c63i49-MuiInputBase-input-MuiInput-input"
+                    placeholder="Type a search query to filter"
+                    type="search"
+                    value=""
+                  />
+                </div>
+              </div>
+            </th>
+          </tr>
+          <tr
+            class="MuiTableRow-root Spreadsheet-tableHeadRowRoot-4 MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root Spreadsheet-tableCellRoot-6 MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ndpvdd-MuiTableCell-root"
+              scope="col"
+            >
+              A
+            </th>
+            <th
+              class="MuiTableCell-root Spreadsheet-tableCellRoot-6 MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ndpvdd-MuiTableCell-root"
+              scope="col"
+            >
+              B
+            </th>
+            <th
+              class="MuiTableCell-root Spreadsheet-tableCellRoot-6 MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1ndpvdd-MuiTableCell-root"
+              scope="col"
+            >
+              C
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root Spreadsheet-tableBodyRoot-5 css-apqrd9-MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root Spreadsheet-tableRowRoot-7 css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root Spreadsheet-tableCellRoot-6 MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
+            >
+              <div
+                class="Spreadsheet-editBoxRoot-16 MuiBox-root css-0"
+              >
+                3
+                <svg
+                  class="Spreadsheet-editIcon-17"
+                >
+                  edit.svg
+                </svg>
+              </div>
+            </td>
+            <td
+              class="MuiTableCell-root Spreadsheet-tableCellRoot-6 MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
+            >
+              <div
+                class="Spreadsheet-editBoxRoot-16 MuiBox-root css-0"
+              >
+                18
+                <svg
+                  class="Spreadsheet-editIcon-17"
+                >
+                  edit.svg
+                </svg>
+              </div>
+            </td>
+            <td
+              class="MuiTableCell-root Spreadsheet-tableCellRoot-6 MuiTableCell-body MuiTableCell-alignCenter MuiTableCell-sizeMedium css-1yhpg23-MuiTableCell-root"
+            >
+              <div
+                class="Spreadsheet-editBoxLast-18 Spreadsheet-editBoxRoot-16 MuiBox-root css-0"
+              >
+                13.5
+                <svg
+                  class="Spreadsheet-editIcon-17"
+                >
+                  edit.svg
+                </svg>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button
+        class="MuiButtonBase-root MuiButton-root Spreadsheet-addRowButtonRoot-10 MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root Spreadsheet-addRowButtonRoot-10 MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        Add row +
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

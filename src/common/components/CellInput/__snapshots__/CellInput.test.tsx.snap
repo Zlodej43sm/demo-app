@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellInput SHOULD match snapshot 1`] = `
+<div>
+  <div
+    class="Spreadsheet-editBoxRoot-1 MuiBox-root css-0"
+  >
+    3
+    <svg
+      class="Spreadsheet-editIcon-2"
+    >
+      edit.svg
+    </svg>
+  </div>
+</div>
+`;
