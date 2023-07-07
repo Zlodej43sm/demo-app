@@ -39,6 +39,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 - filter by result
 - add/remove row
+- save cell data on enter
 - improve list view + table loader per page view
 - add notifications state
 - save temp data in localstorage
