@@ -40,7 +40,7 @@ const saveData = createAsyncThunk(
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(params.data),
+          body: JSON.stringify({ data: params.data }),
         });
         return await res.json();
       }
@@ -62,6 +62,9 @@ const getStatus = createAsyncThunk(
       } else {
         const res: any = await fetch(`${API_ROUTES.getStatus.url}?${new URLSearchParams({ id: params.id })}`, {
           method: API_ROUTES.getStatus.method,
+          headers: {
+            "Content-Type": "application/json",
+          },
         });
         return await res.json();
       }

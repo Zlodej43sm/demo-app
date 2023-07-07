@@ -6,7 +6,7 @@ const API_ROUTES = {
   },
   getStatus: {
     method: "get",
-    url: `${BASE_URL}/get-status `,
+    url: `${BASE_URL}/get-status`,
   },
 };
 
